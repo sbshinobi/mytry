@@ -12,7 +12,5 @@ jobs:
             - name: "checkout"
               uses: actions/checkout@v4
             
-            
-           
             - name: "start server"
               run: pm2 start src/App.js
