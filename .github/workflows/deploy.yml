@@ -1,4 +1,4 @@
-name: "CI/CD for my try"
+name: "CI/CD"
 on: workflow_dispatch
 
 jobs:
