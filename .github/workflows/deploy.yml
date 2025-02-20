@@ -11,8 +11,7 @@ jobs:
                   node-version: "22"
             - name: "checkout"
               uses: actions/checkout@v4
-            - name: "install dependencies"
-              run: npm install
+            
             
            
             - name: "start server"
