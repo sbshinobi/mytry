@@ -13,8 +13,7 @@ jobs:
               uses: actions/checkout@v4
             - name: "install dependencies"
               run: npm install
-            - name: "install pm2"
-              run: npm install pm2 -g
+            
            
             - name: "start server"
               run: pm2 start src/App.js
